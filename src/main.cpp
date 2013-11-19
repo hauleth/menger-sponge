@@ -61,7 +61,7 @@ protected:
     return true;
   }
 public:
-  App() : sponge(3), vbox(false, 0), quit("Wyjście") {
+  App() : vbox(false, 0), quit("Wyjście") {
     int major, minor;
     std::stringstream str;
     if (Gdk::GL::query_version(major, minor))
