@@ -10,7 +10,7 @@ Program that show [Menger sponge](https://en.wikipedia.org/wiki/Menger_sponge).
 
 ## Compilation and running
 
-    `make all && ./menger`
+    make all && ./menger
 
 ## Usage
 
